@@ -7,6 +7,7 @@
         <?php include 'nav.php' ?>
             <div id="main">
                 <main>
+                    
                     <h2>Our Story</h2>
                     <p>Lorem ipsum Whatever brunch selfies pork belly. Kombucha snackwave tofu stumptown. Bespoke 3 wolf moon etsy, hashtag flannel tacos whatever. Marfa la croix pork belly jean shorts roof party pabst chicharrones tacos retro stumptown brunch XOXO selfies kickstarter. Mumblecore fixie fanny pack williamsburg +1 3 wolf moon drinking vinegar knausgaard selvage viral yuccie raw denim chartreuse cardigan. Synth master cleanse hexagon air plant, helvetica vape fashion axe kombucha shoreditch VHS. Iceland butcher DIY subway tile.</p>
                     <br>
