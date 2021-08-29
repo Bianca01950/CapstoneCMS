@@ -29,6 +29,8 @@
                     <input type="checkbox" name="status2" value="great" checked>
                     <label for="vehicle3"> This visist was great!</label><br><br>
                     <input type="submit" value="Submit">
+
+                    <p> <h3> Thank you for your input! </h3> </p> 
 </form>
         </main>
     </div><!--close for main-->
