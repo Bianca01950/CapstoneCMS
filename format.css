@@ -9,7 +9,7 @@ nav {
     font-weight: 400;
 }
 
-a:link {
+nav a:link {
     text-decoration: none; 
     color: #000000; 
     margin: 10px; 
@@ -20,7 +20,7 @@ a:link {
     padding-top: 5px;
 }
 
-a:visited {
+nav a:visited {
     text-decoration: none; 
     color: #2b2d2f; 
     margin: 10px;  
@@ -30,7 +30,7 @@ a:visited {
     border-top: 2px solid #b3d2b2;
 }
 
-a:active {
+nav a:active {
     text-decoration: none; 
     color: #7a9cc6; 
     font-weight: 700;
@@ -40,7 +40,7 @@ a:active {
     border-top: 2px solid #b3d2b2;
 }
 
-a:hover {
+nav a:hover {
     text-decoration: none; 
     color: #7a9cc6; 
     font-weight: 700;
@@ -48,4 +48,8 @@ a:hover {
     padding: 6px; 
     border-bottom: 2px solid #b3d2b2;
     border-top: 2px solid #b3d2b2;
+}
+
+ul {
+    list-style-type: none;
 }
