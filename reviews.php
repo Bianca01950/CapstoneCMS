@@ -14,7 +14,9 @@
                     <input type="text" id="fname" name="fname"><br><br>
                     <label for="lname">Last name:</label>
                     <input type="text" id="lname" name="lname"><br><br>
-                    <label for="review">Review:</label>      <!-- need a bigger text box-->
+                    <label for="review">Review Title:</label>      <!-- need a bigger text box-->
+                    <input type="text" id="review" name="review"><br><br>
+                    <label for="review">Review Content:</label>
                     <input type="text" id="review" name="review"><br><br>
 
                 </form>
