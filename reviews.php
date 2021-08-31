@@ -11,15 +11,17 @@
                 <h2>Leave a Review!</h2>
                 <p class="subtext">Reviews are hot off the French presses</p><br><br>
                 <div id="form">
-                <form action="submit-review" method="post">
+                <form action="submit-review.php" method="post">
                     <label for="fname">First name:</label><br>
                     <input type="text" id="fname" name="fname" placeholder="First Name"><br><br>
                     <label for="lname">Last name:</label><br>
                     <input type="text" id="lname" name="lname" placeholder="Last Name"><br><br>
                     <label for="date">Date</label><br>
                     <input type="date" id="date" name="date" placeholder="Date"></input><br><br>
-                    <label for="review">Review:</label><br>
-                    <textarea id="review" placeholder="Do we mocha you happy?" name="review" rows="4" cols="50"></textarea> <br><br>
+                    <label for="title">Review Title</label><br>
+                    <input type="text" id="title" name="title" placeholder="Brief Summary of Review"></input><br><br>
+                    <label for="content">Review:</label><br>
+                    <textarea id="content" placeholder="Do we mocha you happy?" name="content" rows="4" cols="50"></textarea> <br><br>
                     <input type="checkbox" name="status1" value="okay">
                     <label for="vehicle1"> This visit was not very cool beans. </label><br><br>
                     <input type="checkbox" name="status2" value="good">
