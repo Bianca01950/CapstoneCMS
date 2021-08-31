@@ -8,7 +8,8 @@
     <div id="main">
         <main>
         <div id="form">
-                <h2>Contact Us</h2><br><br>
+                <h2>Leave a Review!</h2>
+                <p class="subtext">Reviews are hot off the French presses</p><br><br>
                 <div id="form">
                 <form action="submit-review" method="post">
                     <label for="fname">First name:</label><br>

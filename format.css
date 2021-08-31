@@ -219,3 +219,10 @@ nav a:visited {
 .menu {
     width: 50%;
 }
+
+.subtext {
+    font-family: "courgette", fantasy;
+    text-align: center;
+    font-size: 1em;
+    color: #7a9cc6;
+}
