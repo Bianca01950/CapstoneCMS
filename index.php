@@ -18,7 +18,7 @@
                     <p class="saying">don't feel depresso, have an espresso</p>
                     <br>
                     <br>
-                    <h3>Testimonials</h3>
+                    <h3>Reviews</h3>
                     <div id="reviews">
                     <?php
                         function getPostTitlesFromDatabase() {
