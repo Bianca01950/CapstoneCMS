@@ -2,6 +2,11 @@ header {
     text-align: center;
 }
 
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
 nav {
     text-align: center;
     padding-top: 30px;
@@ -53,3 +58,157 @@ nav a:hover {
 ul {
     list-style-type: none;
 }
+
+main {
+    min-height: calc(100vh - 300px);
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+footer {
+    height: 40px;
+    padding: 25px;
+    text-align: center;
+    font-family: "oswald", sans-serif;
+    font-weight: 500;
+    font-variant: small-caps;
+    letter-spacing: 2px;
+    font-size: 1.5em;
+    border-bottom: 2px solid #b3d2b2;
+    border-top: 2px solid #b3d2b2;
+}
+
+#banner {
+text-align: center;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    font-family: "oswald", sans-serif;
+    font-weight: 500;
+    font-size: 5em;
+    margin: 0px;
+    padding: 0px;
+}
+
+.saying {
+    font-family: "courgette", fantasy;
+    text-align: center;
+    font-size: 3em;
+    color: #7a9cc6;
+}
+
+#about {
+    text-align: center;
+    margin-right: 450px; 
+    margin-left: 450px;
+}
+
+h3 {
+    text-align: center;
+    font-family: "oswald", sans-serif;
+    font-weight: 500;
+    font-size: 5em;
+    margin: 0px;
+    padding: 0px;
+}
+
+#reviews {
+    text-align: center;
+}
+
+a:link {
+    text-decoration: none; 
+    color: #000000; 
+    margin: 5px; 
+    padding: 5px; 
+    border-bottom: 2px solid #b3d2b2;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    line-height: 40px;
+}
+
+a:hover {
+    text-decoration: none; 
+    color: #7a9cc6; 
+    font-weight: 700;
+    margin: 10px; 
+    padding: 6px; 
+    border-bottom: 2px solid #b3d2b2;
+    line-height: 40px;
+}
+
+nav a:visited {
+    text-decoration: none; 
+    color: #2b2d2f; 
+    margin: 10px;  
+    padding: 6px; 
+    display: inline-block;
+    border-bottom: 2px solid #b3d2b2;
+    line-height: 40px;
+}
+
+/* Recipe Submission Form*/
+
+#form {
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  #form input[type=text], 
+  #form input[type=date], 
+  #form textarea{
+    border: 1px solid #b3d2b2;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 7px;
+    margin-bottom: 20px;
+    width: 90%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+  }
+  
+  
+  #form button{
+    height: 40px;
+    width: 150px;
+    font-size: .9em;
+    font-weight: 500;
+    font-family: "roboto", sans-serif;
+    text-decoration: none;
+    background-color: #ffffff;
+    letter-spacing: 1px;
+    border-color: #b3d2b2;
+    border-radius: 30px;
+    box-shadow: none;
+  }
+
+  #form button:hover{
+    height: 40px;
+    width: 150px;
+    font-size: .9em;
+    font-weight: 500;
+    font-family: "roboto", sans-serif;
+    text-decoration: none;
+    letter-spacing: 1px;
+    background-color: #b3d2b2;
+    border-radius: 30px;
+    box-shadow: none;
+  }
+  
+  #gray-content-box {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  }
+
+  .thanks {
+    font-family: "courgette", fantasy;
+    text-align: center;
+    font-size: 2em;
+    color: #7a9cc6;
+  }
+  
