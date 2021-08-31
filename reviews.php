@@ -11,7 +11,7 @@
                 <h2>Leave a Review!</h2>
                 <p class="subtext">Reviews are hot off the French presses</p><br><br>
                 <div id="form">
-                <form action="submit-review" method="post">
+                <form action="submit-review.php" method="post">
                     <label for="fname">First name:</label><br>
                     <input type="text" id="fname" name="fname" placeholder="First Name"><br><br>
                     <label for="lname">Last name:</label><br>
