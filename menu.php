@@ -7,8 +7,9 @@
         <?php include 'nav.php' ?>
     <div id="main">
         <main>
-                <h2>Menu</h2>
-                <p>Lorem Ipsum...</p>
+            <div id="menu">
+        <img class="menu" src="images/menu.jpg">
+</div><!--close for menu-->
         </main>
     </div><!--close for main-->
     <?php include 'footer.php' ?>
