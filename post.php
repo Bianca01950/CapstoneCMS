@@ -30,13 +30,13 @@
 
                 $postDetails = getPostDetailsFromDatabase();
                 ?>
-                <h3><?php echo $postDetails["title"]; ?></h3>
-                <div id="reviews">
+                <h3 class="reviewheader"><?php echo $postDetails["title"]; ?></h3>
+                    <h4 class="reviewcontent"><?php echo $postDetails ["content"]; ?></h4><br>
+                    <div id="reviewer">
                     <div><?php echo $postDetails ["fname"]; ?></div>
                     <div><?php echo $postDetails ["lname"]; ?></div>
-                    <div><?php echo $postDetails ["date"]; ?></div>
-                    <br>
-                    <h4><?php echo $postDetails ["content"]; ?></h4>
+            </div><!--close for reviewer-->
+                    <div class="date"><?php echo $postDetails ["date"]; ?></div>
                 </div>
         </main>
     </div><!--close for main-->

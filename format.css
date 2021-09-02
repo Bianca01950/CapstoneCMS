@@ -80,6 +80,9 @@ footer {
 
 #banner {
 text-align: center;
+}
+
+.banner {
     width: 100%;
 }
 
@@ -88,7 +91,8 @@ h2 {
     font-family: "oswald", sans-serif;
     font-weight: 500;
     font-size: 4em;
-    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 0px;
     padding: 0px;
 }
 
@@ -114,8 +118,9 @@ h3 {
     padding: 0px;
 }
 
-#reviews {
+#reviewshome {
     text-align: center;
+    margin-right: 40px;
 }
 
 a:link {
@@ -138,6 +143,7 @@ a:hover {
     border-bottom: 2px solid #b3d2b2;
     line-height: 40px;
 }
+
 
 nav a:visited {
     text-decoration: none; 
@@ -225,4 +231,29 @@ nav a:visited {
     text-align: center;
     font-size: 1em;
     color: #7a9cc6;
+}
+
+.reviewheader{
+    text-align: center;
+    color: 7a9cc6;
+}
+
+#reviewer{
+    font-size: 0.8em;
+    color: #333333;
+    margin-left: 400px;
+    text-align: center;
+    font-style: italic;
+}
+
+.date{
+    font-size: 0.8em;
+    color: #333333;
+    margin-left: 400px;
+    text-align: center;
+}
+
+.reviewcontent {
+    text-align: center;
+    font-weight: 400;
 }
