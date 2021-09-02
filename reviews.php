@@ -11,7 +11,7 @@
                 <h2>Leave a Review!</h2>
                 <p class="subtext">Reviews are hot off the French presses</p><br><br>
                 <div id="form">
-                <form action="submit-review.php" method="post">
+                <form action="submit-review.php" method="POST">
                     <label for="fname">First name:</label><br>
                     <input type="text" id="fname" name="fname" placeholder="First Name"><br><br>
                     <label for="lname">Last name:</label><br>
@@ -28,7 +28,7 @@
                     <label for="vehicle2"> This visit was just beans. </label><br><br>
                     <input type="checkbox" name="status2" value="great" checked>
                     <label for="vehicle3"> This visit was cool beans!</label><br><br>
-                    <button type="submit" value="Submit">Submit</input>
+                    <button id="submit" type="submit" value="Submit">Submit</input>
                 </form>
 </div><!--close for form-->
                     <br><br><h3 class="thanks"> bottomless thanks! </h3>
