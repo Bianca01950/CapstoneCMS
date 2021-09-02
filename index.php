@@ -8,7 +8,7 @@
             <div id="main">
                 <main>
                     <div id="banner">
-                    <img src="images/bannerimage.jpg">
+                    <img class="banner" src="images/bannerimage.jpg">
 </div><!--close for banner-->
                     <h2>Our Story</h2>
                     <div id="about">
@@ -19,7 +19,7 @@
                     <br>
                     <br>
                     <h3>Reviews</h3>
-                    <div id="reviews">
+                    <div id="reviewshome">
                     <?php
                         function getPostTitlesFromDatabase() {
                             // Get all the post titles from the posts table
