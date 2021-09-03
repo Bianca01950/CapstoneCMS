@@ -34,6 +34,39 @@
                     <br><br><h3 class="thanks"> bottomless thanks! </h3>
         </main>
     </div><!--close for main-->
+    <script>
+        $(document).ready(function(){
+                        $('#submit').click(function(e){
+                                        e.preventDefault();
+                                        var fname = $('#fname').val();
+                                        var lname = $('#lname').val();
+                                        var date = $('#date').val();
+                                        var title = $('#title').val();
+                                        var content = $('#content').val();
+                                        if(fname == "") {
+                                                        alert("First Name is required");
+                                                        return;
+                                        }
+                                        if(content == "") {
+                                                        alert("Please leave a review");
+                                                        return;
+                                        }
+
+                                        $.post("submit-review.php", { 
+                                            fname: fname, 
+                                            lname: lname, 
+                                            date: date,
+                                            title: title, 
+                                            content: content 
+                                        }).done(function() {
+                                                        alert("Form Submitted! Thanks for the feedback!");
+                                                        window.location="index.php"
+                                        });
+                        });
+
+        });
+        </script>
+
     <?php include 'footer.php' ?>
     </body>
 </html>
